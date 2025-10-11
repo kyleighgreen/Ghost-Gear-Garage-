@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wraps, exhaust, and custom modifications.">
+  <meta name="keywords" content="ghost gear garage, wraps, exhaust, car parts, spooky gothic custom cars">
+  <title>Services • Ghost Gear Garage</title>
+  <link rel="stylesheet" href="gothic_css.css">
+</head>
+<body>
+
+    <header>
+      <div class="wrap">
+        <a class="brand" href="index.html">
+          <img class="logo" src="images/skull.jpg" alt="Ghost Gear Garage skull logo">
+          <span>Ghost Gear Garage</span>
+        </a>
+        <nav aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="shop.html">Shop</a>
+          <a href="blog.html">Blog</a>
+        </nav>
+      </div>
+    </header>
+
+  <main>
+    <section>
+      <h1>Services</h1>
+      <p id="wraps"><strong>Vinyl Wraps:</strong> premium films, custom graphics, matte/gloss/satin finishes.</p>
+      <p id="exhaust"><strong>Exhaust:</strong> axle-back, cat-back, header-back; stainless or titanium; tuned sound.</p>
+      <p><strong>Other Mods:</strong> lighting, suspension, aero, interior accents — tailored to your vision.</p>
+      <img class="float-img" src="images/stick.jpg" alt="Skull shift knob detail">
+    </section>
+
+    <section class="form-section">
+      <h2>Request a Quote</h2>
+      <form action="#" method="post">
+        <label>Full Name
+          <input type="text" name="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+        <label>Service
+          <select name="service">
+            <option>Vinyl Wrap</option>
+            <option>Exhaust</option>
+            <option>Other Mods</option>
+          </select>
+        </label>
+        <label>Vehicle & Notes
+          <textarea name="notes" rows="4" placeholder="Year/Make/Model + ideas"></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+    <footer>
+      <small>© <span id="y"></span> Ghost Gear Garage • <a href="https://www.asu.edu" target="_blank" rel="noopener">External Link</a> • <a href="mailto:info@ghostgeargarage.com">Email</a></small>
+      <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+    </footer>
+
+</body>
+</html>
